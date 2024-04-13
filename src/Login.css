@@ -1,0 +1,86 @@
+/* Login.css */
+
+/* Container styling */
+.login-container {
+    width: 400px; /* Set the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+    border: 1px solid #ccc; /* Add a border to the container */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Heading styling */
+.login-container h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+/* Form styling */
+.login-container form {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 16px; /* Add margin below each input group */
+}
+
+/* Label styling */
+.input-group label {
+    display: block; /* Ensure label is displayed as a block */
+    margin-bottom: 6px; /* Add margin below the label */
+}
+
+/* Input field styling */
+.input-group input,
+.input-group select {
+    width: 100%; /* Input fields should take up the full width */
+    padding: 8px; /* Add padding inside the input fields */
+    border: 1px solid #ccc; /* Add a border to the input fields */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+/* Button styling */
+.login-container button {
+    padding: 10px; /* Add padding inside the button */
+    border: none; /* Remove the default border */
+    border-radius: 4px; /* Add rounded corners */
+    background-color: #4caf50; /* Green background color */
+    color: #fff; /* White text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-weight: bold; /* Bold font weight */
+}
+
+.login-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Forgot password link styling */
+.forgot-password {
+    display: block; /* Ensure it takes up the full width */
+    margin-top: 8px; /* Add margin above the link */
+    text-align: right; /* Align the link to the right */
+    color: #007bff; /* Blue color */
+}
+
+.forgot-password:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
+
+/* Signup link styling */
+.signup {
+    text-align: center; /* Center the signup link */
+    margin-top: 16px; /* Add margin above the link */
+}
+
+.signup a {
+    color: #007bff; /* Blue color */
+    text-decoration: none; /* Remove the underline */
+}
+
+.signup a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}

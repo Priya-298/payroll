@@ -1,0 +1,42 @@
+/* LeaveRequest.css */
+
+/* Container styling */
+.leaverq {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e6f4ff;
+    width: 30%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+}
+
+/* Heading styling */
+.leaverq h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    
+    
+}
+
+/* TextField styling */
+.leaverq .MuiTextField-root {
+    margin-bottom: 16px;
+
+}
+
+/* DemoItem styling */
+.leaverq .MuiFormControl-root {
+    margin-bottom: 16px;
+   
+}
+
+/* DateCalendar styling */
+.leaverq .MuiCalendarPicker-root {
+    width: 100%;
+    align-items: center;
+}
+

@@ -1,0 +1,65 @@
+/* LeaveApproval.css */
+
+/* Container styling */
+.leaveApproval {
+    padding: 12px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e6f4ff;
+    width: 20%; /* Reduced width */
+    margin: 20px auto;
+}
+
+/* Heading styling */
+.leaveApproval h2 {
+    font-size: 20px; /* Reduced font size */
+    margin-bottom: 16px; /* Reduced margin */
+    text-align: center;
+}
+
+/* List styling */
+.leaveApproval ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* List item styling */
+.leaveApproval li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px; /* Reduced padding */
+    margin-bottom: 10px; /* Reduced margin */
+    background-color: #ffffff;
+}
+
+/* Button container styling */
+.leaveApproval li > div > div {
+    margin-top: 10px; /* Reduced margin */
+}
+
+/* Button styling */
+.leaveApproval button {
+    margin-right: 8px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Approve button styling */
+.leaveApproval button.approve {
+    background-color: #4caf50; /* Green color */
+    color: #ffffff;
+}
+
+/* Reject button styling */
+.leaveApproval button.reject {
+    background-color: #f44336; /* Red color */
+    color: #ffffff;
+}
+
+/* Button hover styling */
+.leaveApproval button:hover {
+    opacity: 0.8;
+}

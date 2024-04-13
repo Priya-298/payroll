@@ -1,0 +1,59 @@
+/* ProjectDetails.css */
+
+/* Container styling */
+.project {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e6f4ff;
+    width: 40%;
+    margin: 20px auto;
+}
+
+/* Heading styling */
+.project h2, .project h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+/* Project item styling */
+.project div {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+}
+
+/* Project name styling */
+.project h4 {
+    margin: 0;
+    color: #333;
+}
+
+/* Paragraph styling */
+.project p {
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Button container styling */
+.project div > div {
+    margin-top: 12px;
+}
+
+/* Action buttons styling */
+.project button {
+    padding: 8px 12px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.project button:hover {
+    background-color: #e0e0e0;
+}
+

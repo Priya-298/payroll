@@ -1,0 +1,35 @@
+/* Dashboard.css */
+
+/* Container styling */
+.dashboard {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color:  #e6f4ff;
+    width: 60%;
+    margin: 20px auto;
+}
+
+/* Heading styling */
+.dashboard h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #333;
+}
+
+/* Subheading styling */
+.dashboard h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #555;
+}
+
+/* Text styling */
+.dashboard h4 {
+    font-size: 18px;
+    text-align: center;
+    color: #777;
+    margin-bottom: 0;
+}
